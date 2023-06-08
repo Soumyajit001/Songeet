@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans&family=Varela+Round&display=swap');
+
+
+body{
+    background-color: antiquewhite;
+}
+
+*{
+    margin: 0;
+    padding:0;
+}
+
+nav{
+    font-family: PT Sans, sans-serif;
+}
+
+nav ul{
+    display: flex;
+    align-items:center;
+    list-style-type: none;
+    background-color: black;
+    color: white;
+}
+
+nav ul li{
+    padding: 0 15px ;
+    cursor: pointer;
+}
+
+.brand img{
+    width: 55px;
+    padding:0 8px;
+    display: flex;
+}
+
+.brand {
+    display: flex;
+    align-items:center;
+    font-weight: bold;
+    font-size: x-large;
+}
+
+.container{
+    min-height: 139vh;
+    background-color: black;
+    color: white;
+    font-family: Playfair Display,sans-serif;
+    display: flex;
+    margin: 23px auto;
+    width: 72%;
+    border-radius: 13px;
+    background-image: url('ah.jpg');
+}
+
+h1{
+    font-size: 9px;
+    padding: 8px;
+    margin-left: 10px;
+}
+
+.bottom{
+    position: sticky;
+    height: 100px;
+    background-color:black;
+    color: white;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.icons{
+    margin-top: 25px;
+    align-items: center;
+}
+
+.icons i{
+    cursor: pointer;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+#myProgressBar{
+    width: 500px;
+    height: 3px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.songitemcontainer{
+    display: flex;
+    flex-direction: row;
+    height: 150px;
+    width: 55%;
+    margin: 30px 35px;
+    text-align: center;
+}
+
+h2{
+    font-size: 12px;
+    font-style: oblique;
+    cursor: pointer;
+    text-decoration: underline;
+    color:gold;
+    height: 28px;
+}
+
+.songItem{
+    height: 140px;
+    display:block;
+    background-color:whitesmoke;
+    width: 38%;
+    color: black;
+    margin: 0 15px;
+    justify-content: space-between;
+    align-items:center;
+    border-radius: 14px;
+    text-align: center;
+    font-size: 12.5px;
+    font-weight:bolder;
+}
+
+.songItem i{
+    margin-left: 10px;
+}
+
+.songItem img{
+    width: 80px;
+    margin: 3px 12px;
+    border-radius: 15px;
+}
+
+.timestamp{
+    cursor: pointer;
+    font-size: 12px;
+}
+
